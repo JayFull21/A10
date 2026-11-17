@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A10 - Cookie Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>A10: JavaScript Cookie Demo</h1>
+    <p>Enter your name to save it in a cookie. Reload the page and the cookie will be read back and displayed.</p>
+  </header>
+
+  <main>
+    <section id="greeting" class="card">
+      <!-- Filled in by js/cookies.js -->
+    </section>
+
+    <section class="card">
+      <h2>Set a Cookie</h2>
+      <form id="cookieForm">
+        <label for="username">Your name:</label>
+        <input type="text" id="username" placeholder="e.g. Jay" required>
+        <button type="submit">Save Cookie</button>
+      </form>
+      <div class="buttons">
+        <button type="button" id="reloadBtn">Reload Page</button>
+        <button type="button" id="deleteBtn" class="danger">Delete Cookie</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>All Cookies on This Page</h2>
+      <pre id="cookieDisplay"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Johnathan Fullman &mdash; IS117 A10 &mdash; Due: November 17, 2026</p>
+  </footer>
+
+  <script src="js/cookies.js"></script>
+</body>
+</html>

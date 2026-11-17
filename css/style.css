@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.5;
+}
+
+header,
+footer {
+  background: #1f3a5f;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#greeting {
+  font-size: 1.2rem;
+  border-left: 6px solid #2e7d32;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #1f3a5f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2d5285;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.danger {
+  background: #b23a3a;
+}
+
+.danger:hover {
+  background: #d04b4b;
+}
+
+pre {
+  background: #eef1f4;
+  padding: 0.8rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
